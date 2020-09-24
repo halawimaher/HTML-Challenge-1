@@ -1,0 +1,191 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#web {
+  background-color:  rgb(33, 43, 45);
+}
+p {
+  color: #97aaae;
+}
+
+.logo {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+}
+.linux-logo {
+  width: 80%;
+  margin-left: 110px;
+}
+h3.slogan {
+  position: absolute;
+  bottom: 50px;
+  left: 20%;
+  color: cornflowerblue;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+nav {
+  width: 85%;
+  margin: 0 auto;
+}
+nav ul {
+  background-color:rgb(50, 60, 62);
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  list-style: none;
+  color: #97aaae;
+}
+main {
+  width: 85%;
+  margin: auto;
+  padding-top: 10px;
+}
+.one,
+.two {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.distros {
+  width: 25%;
+  position: relative;
+}
+.distros ul {
+  margin-left: 35px;
+  line-height: 30px;
+  list-style-image: url(/level3/iconmonstr-x-mark-9-16.png);
+  list-style-position: inside;
+}
+.distros ul a {
+  color: #97aaae;
+  text-decoration: underline;
+  
+}
+.distros ul a:hover {
+  font-size: 20;
+}
+.de {
+  width: 75%;
+}
+.de h3 {
+  font-weight: 400;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+h3{
+  color: #97aaae;
+}
+
+.de p {
+  font-size: 17px;
+  line-height: 30px;
+}
+.two div {
+  margin: 10px;
+}
+.adv {
+  width: 20%;
+}
+.subs {
+  width: 40%;
+}
+.serv {
+  width: 40%;
+}
+button {
+  cursor: pointer;
+  border-radius: 0px;
+  padding: 10px;
+  background-color:rgb(92, 101, 102);
+  border: none;
+}
+.form {
+  background-color: rgba(89, 182, 185, 0.068);
+  border-radius: 10px;
+}
+form {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+  padding: 10px;
+}
+form p {
+  text-align: center;
+}
+form input,
+form label {
+  width: 50%;
+  margin: auto;
+}
+form button {
+  width: 25%;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+textarea {
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #97aaae;
+}
+label{
+  color: #97aaae;
+}
+.choice {
+  display: flex;
+  height: 15vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.choices {
+  margin: 0 auto;
+}
+
+footer{
+  width: 85%;
+  padding-left: 650px;
+  height: 30px;
+  background-color:rgb(33, 43, 45);
+}
+.fa-facebook {
+  background: white;
+  color:rgb(33, 43, 45);
+}
+.fa-twitter {
+  background: white;
+  color:rgb(33, 43, 45);
+}
+.fa-youtube {
+  background: white;
+  color:rgb(33, 43, 45);
+}
+
+.fa-instagram {
+  background: white;
+  color:rgb(33, 43, 45);
+}
+
+.fa-pinterest {
+  background: white;
+  color:rgb(33, 43, 45);
+}
+
+.fa:hover{
+font-size: 20px;
+}
